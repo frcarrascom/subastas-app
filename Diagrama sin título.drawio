@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T19:38:56.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="MhPCC7sKoZE5LI62a-YF" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T19:40:29.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="8WauvkgYhCs_boDRd1KW" version="20.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--18" value="codSubasta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--18" value="codProductoSubastado" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AHvvxaR7__jQoDVLhSC6-24" value="" style="shape=stencil(rVjbbtswDP2avBK6ktJz1/1HgaZLsKwp0uz296NnSLXo+AQD9uY4pHg7PKS8iw/vh6e3/S649+vl/HX/8/h8Pezip10Ix9fD/nK86tMuPu7iw8v5sv9yOX9/fZ5/vz1NktPTt/OP6YRfs16gUCel4H7PL7wncX/ffJ7lT8fXhTxTCqO8o1S25X2gnAcFplyBPFMcDSSqQD44yjLIRyrA/5ApuEE+UI1AvjbzH/I+bMvHRGWM11PIQL4SmwKQA/6nRHH031EB/qdCHI18TtvyWetlz0f+ZCbHRt4zkK/ki/UH4Ic13mTyIyCfXEjG83M74Ka8BCojfioJ8F+Y2PgTKQBAFEdhLIAXqsCjkkjGDlDIFeBSKZRGlzQGD3JUvcV0DDDoyq3Hu0JqNm8rCLEfFRi2QV3BNHmKHihUSqOFVMkBolCFYoBRYNDedeR36qr3fJKxEKLdjaLWOo1Ray0ZBVFaFjtaMyWBhTDtpjYj6GcttQtWQZAF5WejwJCRaqRqOs5BylaFMMZQ+tS6rdApvdchNNbfVBgLxx5OKXXJTKnsIY1plkxaUySPLGhaTcsJRZRWbvBf9CiMQSiMQUedjajSpaG/K9zB0orrEzebmw00DpOs7I22hRs9mjFca+PSjg2+F0Qc4VoyFdyjZiNRtGREG2JXpCnTyAJb7lvk4X9pBIvwKS40tkpD2yJslFidc5xtYhkgXCepGdVS4BQSoTRaEDznJNrByEwVlE7W8HNwXdXz3EhNGXepEpHJUqpwRGjHGC5LGQY9bXxmkia4Mk0rpXEpwo6YzluRX0FLdG073sIltNEoc5k6aNAegC+6dl5XEHLAwrRGiq2DA2nVvdbEkDE09OaTzUwJjUm2rlaWLSMx2qVbAy+xB8oQLGkotlAVPJXV+Wj98fYqowGjbus3nUVGHQCqs3vxNH4AKPrNZbGDMsiPWl8tuahgK7KIHo50126afa9neNVwFqKaYVRfZ9dVvZmgQeXt1dnrLQD4rzc1c/NRRKGW+cdvEffl9eHjw8fL8XSav5ss/7cfSvTV/JElPv4B);lineShape=1;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
