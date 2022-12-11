@@ -1,0 +1,267 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: rgba(1, 1, 1, .35);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 100px;
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    width: 200px;
+}
+
+nav form .search-data {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+
+nav form button {
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    background: #5288ad;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+nav form button:hover {
+    background: #b3d7ff;
+}
+
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon {
+    width: 40px;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+nav .menu-icon span,
+nav .cancel-icon,
+nav .search-icon {
+    display: none;
+}
+
+/*   PARA MOVIL   */
+@media (max-width: 911px) {
+    nav {
+        padding: 0px;
+    }
+
+    nav .logo {
+        flex: 2;
+        text-align: center;
+    }
+
+    nav .nav-items {
+        position: fixed;
+        z-index: 99;
+        top: 60px;
+        width: 100%;
+        left: -100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        background: #2f3336;
+        display: inline-block;
+        transition: left 0.3s ease;
+    }
+
+    nav .nav-items.active {
+        left: 0px;
+    }
+
+    nav form {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+        transition: top 0.3s ease, opacity 0.1s ease;
+    }
+
+    nav form.active {
+        top: 10px;
+        left: 15px;
+        opacity: 1;
+        pointer-events: auto;
+        z-index: 1;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav .search-icon,
+    nav .menu-icon span {
+        display: block;
+    }
+
+    nav .menu-icon span.hide,
+    nav .search-icon.hide {
+        display: none;
+    }
+
+    nav .cancel-icon.show {
+        display: block;
+    }
+}
+
+/*      para tablet         */
+@media (max-width: 1139px) and (min-width: 912px) {
+    nav .logo {
+        text-align: center;
+        width: 150px;
+    }
+
+    nav .nav-items {
+        position: fixed;
+        z-index: 99;
+        top: 60px;
+        width: 100%;
+        left: -100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        background: #2f3336;
+        display: inline-block;
+        transition: left 0.3s ease;
+    }
+
+    nav .nav-items.active {
+        left: 0px;
+    }
+
+    nav form {
+        position: absolute;
+        top: 50px;
+        right: 500px;
+        opacity: 0;
+        pointer-events: none;
+        transition: top 0.3s ease, opacity 0.1s ease;
+    }
+
+    nav form.active {
+        z-index: 1;
+        top: 20px;
+        right: -420px;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav .search-icon,
+    nav .menu-icon span {
+        display: block;
+    }
+
+    nav .menu-icon span.hide,
+    nav .search-icon.hide {
+        display: none;
+    }
+
+    nav .cancel-icon.show {
+        display: block;
+    }
+}
+
+@media (max-width: 911px) {
+    nav .menu-icon,
+    nav .cancel-icon,
+    nav .search-icon {
+        margin: 0 20px;
+    }
+    nav form {
+        right: 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    nav .menu-icon,
+    nav .cancel-icon,
+    nav .search-icon {
+        margin: 0 10px;
+    }
+}
+
+.nuevo {
+    border: 1px dashed red;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
+
+.noMsg {
+    min-height: 500px;
+}
+
+.sugg {
+    margin: 5px;
+}
+
+.imagen:hover {
+    cursor: pointer;
+}
+
+.imagenesP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+/*boton de subir*/
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
