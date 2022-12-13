@@ -116,12 +116,13 @@ if (isset($_GET['actualizar'])) {
                             <div class='form-group'>
                                 <label for='#pass'>Password</label>
                                 <div class='input-group'>
-                                    <div class='input-group-prepend btn btn-outline-secondary' id='vista'><i
-                                                class='far fa-eye-slash'></i></div>
+
                                     <input type='password' class='form-control'
                                            value='<?php echo $usuario->getPassword() ?>'
                                            id='pass'
                                            name='pass'/>
+                                    <i class="fa fa-eye" id="togglePassword" style="margin-left: 15px; cursor: pointer; margin-top: 10px"></i>
+
                                 </div>
                             </div>
                             <div class='form-group'><label for='nombre'>Nombre</label>
@@ -164,13 +165,23 @@ if (isset($_GET['actualizar'])) {
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript" src="../js/sweetAlert.js"></script>
 <script type="text/javascript">
-    //boton comprobar borrar cuenta
-/*    document.getElementById("delete").addEventListener("click", function () {
-        if (confirm("Estas seguro de que quieres eliminar la cuenta?")) {
-            // redirigimos a la misma pagina para borrar el usuario por php
-            window.location.href = 'perfil.php?borrar=1';
+    //mostrar contraseña
+    const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#pass');
+
+    togglePassword.addEventListener('click', function () {
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+
+        if (this.classList.contains('fa-eye')) {
+            this.classList.remove('fa-eye');
+            this.classList.add('fa-eye-slash');
+        } else {
+            this.classList.remove('fa-eye-slash');
+            this.classList.add('fa-eye');
         }
-    })*/
+    });
 </script>
 </body>
 </html>
